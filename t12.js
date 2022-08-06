@@ -1,0 +1,5 @@
+var entrada = require("readline-sync")
+var raioCirculo = (40/2)
+var perimetroCirculo = (2 * 3 * raioCirculo)
+var resultado = (perimetroCirculo * perimetroCirculo)
+console.log("A area do quadrado seria: ", resultado)

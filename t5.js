@@ -1,0 +1,5 @@
+var entrada = require("readline-sync")
+var vlq = entrada.question("Qual o valor do lado de um quadrado? ")
+var area = (vlq * vlq)
+console.log(area)
+ console.log("O valor da area e, ", area)

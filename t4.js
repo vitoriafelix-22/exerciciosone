@@ -1,0 +1,7 @@
+var entrada = require("readline-sync")
+var a1 =entrada.question("qual sua idade, a1? ")
+var b2 =entrada.question("qual sua idade, b2? ")
+var c3 =entrada.question("qual sua idade, c3? ")
+var soma = (b2 + c3)
+var resultado = (a1 <= soma)
+console.log((a1<= soma))
